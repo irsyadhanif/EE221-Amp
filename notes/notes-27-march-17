@@ -1,0 +1,13 @@
+Our amplifier needs to filter out the G3 note, which is 196.0 Hz
+
+The next highest and the next lowest notes are 50 Hz apart, so our bandwidth will be 50 Hz, with a high power frequency of 221 Hz and a low power frequency of 171 Hz, with a cutoff frequency of 196 Hz.
+
+This requires an RC of 1074.42 for the low-pass part, and an RC of 1388.58 for the high-pass part.
+
+We also wanted a slope of -40 dB/decade after the cutoff frequencies.
+
+Michael has a box of capacitors, so he'll bring it next time we meet to decide what our components will be.  He also has a speaker, which we will use.
+
+We also looked at op-amps and tried to figure out what we needed.  We found LM741 op-amps on sale for $7 for 10, so we decided to buy it.
+
+Michael was put in charge with simulating the circuit with MultiSim, since he is the most experienced with it.
