@@ -1,0 +1,18 @@
+Michael played around with multisim and created different circuit schematics for
+orders first through fourth.
+
+We started building the 4th order circuit, starting with the resistors
+
+We picked out 6 resistor types to make the 4 required resistors:
+    - 9k1 + 220
+    - 6k2 + 1k
+    - 18k
+    - 10k
+
+This will translate to 18 total resistors on our board.
+
+We found out that the cylinder capacitors should not be used for AC voltage.
+Therefore, we went ahead and bought the ceramic capacitors.
+
+We decided to still build the circuit, using the cylinder caps as placeholders.
+When the ceramic capacitors come in, we will replace them.
